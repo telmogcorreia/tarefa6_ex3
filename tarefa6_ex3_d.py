@@ -33,9 +33,9 @@ else: # Garante que só executa o código se o ficheiro for aberto com sucesso.
                  if nota > max:
                      max = nota
                      nome = aluno[0]
-                     melhores_aluno = [aluno[0]]    # Opção para mostrar mais do que um aluno com nota maxima
-                elif nota == max:
-                    melhores_aluno.append(aluno[0])
+                     #melhores_aluno = [aluno[0]]    # Opção para mostrar mais do que um aluno com nota maxima
+                #elif nota == max:
+                    #melhores_aluno.append(aluno[0])
                     
                 soma += nota   # Acumular as notas.
                 contar += 1    # Conta o numero de alunos.
